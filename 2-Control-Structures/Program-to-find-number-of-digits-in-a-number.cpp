@@ -8,13 +8,11 @@ int main()
   int n, count=0;
   cin>>n;
   if(n==0){
-    cout<<"count is"<<count;
+    cout<<"count is "<<count;
   }
   while(n!=0){
     n=n/10;
     count=count+1;
   }
-
-  cout<<"count is"<<count;
-
+cout<<"count is "<<count;
 }
